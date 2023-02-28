@@ -1,3 +1,8 @@
+---
+layout: single
+title:  "Second Test for Blog with Markdown"
+---
+
 # Ⅵ. big-O
 
 - big-O 시간 : 알고리즘의 효율성을 나타내는 지표 혹은 언어
@@ -74,7 +79,7 @@
     
     → A와 B의 수행 시간을 더해야 한다
     
-    ```python
+    ```java
     덧셈 수행 시간: O(A + B) -> A의 일을 한 뒤에 B의 일을 수행
     for(int a: arrA) {
     	print(a);
@@ -88,7 +93,7 @@
     
     → A와 B의 수행 시간을 곱해야 한다
     
-    ```python
+    ```java
     곱셈 수행 시간: O(A * B) -> A의 각 원소에 대해 B의 일을 수행
     for(int a: arrA) {
     	for(int b: arrB) {
